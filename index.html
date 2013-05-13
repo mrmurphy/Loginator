@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/login.css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="js/controller.js"></script>
+    </head>
+    <body>
+        <div class="row-fluid">
+            <div class="span6 offset3 loginwrapper">
+                <div class="alert"></div>
+                <form class="form .form-horizontal" method="post">
+                    <div class="control-group">
+                        <label>Username: </label>
+                        <input type="text" id="email" class="username input-block-level" value="your@email.com"/>
+                    </div>
+                    <div class="control-group">
+                        <label>Password: </label>
+                        <input type="password" id="password" class="userpass input-block-level" value="thispass"/>
+                    </div>
+                    <div id="button" class="btn-primary btn btn-block btn-large">Get me in there!</div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
